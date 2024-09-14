@@ -6,4 +6,6 @@ gsap.to("#box", {
   backgroundColor: "blue",
   borderRadius: "50%",
   scale: 1.5,
+  repeat: -1,
+  yoyo: true,
 });
