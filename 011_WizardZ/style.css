@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.section1 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: 'Signika';
+}
+
+nav h4 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Signika';
+}
+
+nav button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D9FF06;
+    color: #1a1a1a;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Signika';
+    cursor: pointer;
+}
+
+nav h1 i {
+    padding: 0 10px;
+    display: inline-block;
+    rotate: 45deg;
+}
+
+.center {
+    padding: 80px;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    background: #9c9393;
+}
+
+.center-part1 {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.center-part2 {
+    height: 100%;
+    width: 55%;
+    
+}
+
+.center-part1 h1 {
+    font-size: 5.5rem;
+    font-weight: 500;
+    font-family: 'Signika';
+}
+
+.center-part1 p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Signika';
+}
+
+.center-part1 button {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1F1F1F;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Signika';
+    cursor: pointer;
+    width: 300px;
+}
+.center-part2 {
+    display: flex;
+    justify-content: center;
+}
+
+.center-part2 img {
+    width: 80%;
+    height: 80%;
+}
+
+.base {
+    background-color: red;
+    height: 18%;
+}
+
+.base img{
+    width: 150px;
+    height: 130px;
+}
